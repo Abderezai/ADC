@@ -1,3 +1,4 @@
+
 .faqHeader {
   font-size:27px;
   margin:20px;
@@ -26,9 +27,15 @@ h1, h2, h3 {
   font-family:'Crimson Text';
 }
 
+a{
+  text-decoration: none !important;
+}
+
 p {
   font-family:'Montserrat';
   font-size:22px;
+  text-align: justify;
+   text-justify: inter-word;
 }
 
 body {
@@ -39,19 +46,40 @@ body {
   margin-right:0;
 }
 
-#diamond {
-  content:\'\';
-  width:1px;
-  border-left:70px solid transparent;
-  border-right:70px solid transparent;
-  border-top:40px solid #FFF;
-  position:relative;
-  top:40px;
-  margin-left:auto;
-  margin-right:auto;
-  z-index:1;
+.footer{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: black;
+  letter-spacing: 2px;
+  background-color: #f2f2f2;
 }
 
+.footer-title {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.footer-menu{
+  padding-left: 0px;
+  list-style: none;
+  list-style-type:  none;
+}
+
+.footer-menu-item{
+  text-transform: uppercase;
+  padding-top: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.footer-copy{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+  text-align: center;
+}
 
 #homepagebigimage {
   text-align:center;
@@ -92,4 +120,17 @@ body {
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+}
+
+#diamond {
+  content:\'\';
+  width:1px;
+  border-left:70px solid transparent;
+  border-right:70px solid transparent;
+  border-top:40px solid #FFF;
+  position:relative;
+  top:40px;
+  margin-left:auto;
+  margin-right:auto;
+  z-index:1;
 }
