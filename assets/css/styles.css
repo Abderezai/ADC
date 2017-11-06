@@ -72,6 +72,14 @@ body {
   color: black;
 }
 
+.footer-menu-item a{
+  color: #2a447e;
+}
+
+.footer-menu-item a:hover{
+  color: #8B211B;
+}
+
 .footer-copy{
   font-family: 'Montserrat';
   font-size: 15px;
@@ -84,7 +92,8 @@ body {
 #homepagebigimage {
   text-align:center;
   padding:40px;
-  background:url(../../assets/img/home1-opc.jpg);
+  /*background:url(../../assets/img/home1-opc.jpg);*/
+  background-image: url(../../assets/img/homepageimagev2.jpg);
   background-size:cover;
   height:calc(100vh - 130px);
   background-position:center top;
@@ -103,7 +112,8 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color:rgb(15,135,182);
+  /*color: #2A447E;*/
+  color: #8B211B;
 }
 
 #faqpagebigimage {
@@ -120,6 +130,13 @@ body {
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+}
+
+
+/*BOOTSTRAP ARROWS REMOVED*/
+.right.carousel-control, .left.carousel-control {
+    opacity: 0;
+    filter:alpha(opacity=0); /* IE support */
 }
 
 #diamond {
