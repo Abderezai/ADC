@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/animations-ie-fix.css">
 </head>
 
-<body>
+<body class="preload">
     <nav class="navbar navbar-default navbar-fixed-top" style="background-color:white;background-image:url(&quot;none&quot;);height:130px;color:rgb(15,135,182);margin-bottom:0;">
         <div class="container-fluid">
             <div class="navbar-header" style="padding-left:80px;margin-top:25px;">
@@ -48,7 +48,7 @@
     <div style="height:130px;"></div>
     <div class="jumbotron animatedParent animateOnce" id="homepagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
             
-                <h1 class="text-left" style="color: white; position:relative;top:30vh;left:40px;font-size:90px; width:70vw;"><span class="animated fadeIn slowest">Patient focused care</span><br><span class="animated fadeIn delay-1000 slowest">Wherever you need it most </span></h1>
+                <h1 class="text-left" style="color: white; position:relative;top:50vh;left:50px;font-size:90px; width:70vw;"><span class="animated fadeIn slowest">Patient focused care</span><br><span class="animated fadeIn delay-1000 slowest">Wherever you need it most </span></h1>
                 <a href="#lower-home" class="fa fa-angle-down animated fadeInDown delay-2000" aria-hidden="true" style="color: #FFF; position:relative;top:48vh;left:40px;font-size:20px;  font-size: 100px; text-decoration: none;"></a>            
                 <a href="#lower-home" class="animated fadeInDown delay-2000" aria-hidden="true" style="color: #FFF; position:relative;top:48vh;left:-30px;font-size:15px; text-decoration: none; font-family: 'serif';">Learn More</a>
 
@@ -71,15 +71,15 @@
                 </div>
                 <div class="item" >
                         <div class="row" style="background-image:url(assets/img/home3-opc.jpg);background-position:center top;background-size:cover;background-repeat:no-repeat;" >
-                            <div class="col-md-12" style="height: 75vh;">
+                            <div class="col-md-12" style="height: 75vh;background-color: rgba(0,0,0,0.1);">
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 55vh; font-size: 75px; ">Nursing Home Dialysis</h1>
-                            <h1 style="color:white; width:100%; text-align: center; margin-top: 0vh; font-size: 40px;">Our professional medical staff ensure that you achive the best outcome.</h1>
+                            <h1 style="color:white; width:100%; text-align: center; margin-top: 0vh; font-size: 40px; ">Our professional medical staff ensure that you achive the best outcome.</h1>
                             </div>
                         </div>
                 </div>
                 <div class="item" >
                         <div class="row" style="background-image:url(assets/img/home4-opc.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;" >
-                            <div class="col-md-12" style="height: 75vh;">
+                            <div class="col-md-12" style="height: 75vh;background-color: rgba(0,0,0,0.1);">
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 55vh; font-size: 75px; ">Dialysis At Home </h1>
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 0vh; font-size: 40px;">Our professional medical staff ensure that you achive the best outcome.</h1>
                             </div>
@@ -93,37 +93,52 @@
                         </div>
                 </div> -->
             </div>
-<!--             <div><a class="left carousel-control" href="#carousel-1-off" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1-off" role="button"
-                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div> -->
-            <ol class="carousel-indicators">
+            <div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1" role="button"
+                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+<!--             <ol class="carousel-indicators">
                 <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-1" data-slide-to="1"></li>
                 <li data-target="#carousel-1" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
         </div>
     </div>
 
     <div class="container">
+        <h1 class="text-center"  style="color:rgb(84,82,82);padding-top:8px;font-size-adjust:center;font-size:70px;padding-bottom:0px;">Beyond Dialysis</h1>
+
         <div class="row">
-            <div class="col-md-6" style="padding-top:60px;">
+            <div class="col-md-5" style="padding-top:60px;">
                 <h1 class="text-center" style="color:#8B211B;">Skilled Nursing Facility</h1>
                 <p class="" style="font-size:20px;color:gray;">Affiliated Dialysis California provides bedside hemodialysis in skilled nursing facilities. Our new program is the first and only Office of Statewide Health Planning and Development (OSHPD) and California Department of Public Health (CDPH)
                     licensed provider of bedside dialysis in skilled nursing facilities in California. learn more</p>
             </div>
-            <div class="col-md-6" style="padding-top:60px;">
-                <h1 class="" style="color:#8B211B;">Home Hemodialysis Care </h1>
-                <p class="text-left" style="color:gray;font-size:20px;">Our dedicated home dialysis facilities provide patients and their caregivers with expert training and support to allow dialysis to be performed in the home setting. This allows the greatest individualization of the patients personalized
-                    dialysis treatment plan. Affiliated Dialysis California provides both home hemodialysis and peritoneal dialysis in the home setting. &nbsp;learn more</p>
+            <div class="col-md-3 col-md-offset-1"  style="margin-top:100px;" >
+                <img src="assets/img/nursing.jpg"  class="img-circle img-responsive" >
             </div>
         </div>
+          <div class="row">
+            <div class="col-md-9 col-md-offset-1" >
+            <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1" style="margin-top:60px;">
+                <img src="assets/img/athomeservice.jpg"  class="img-circle img-responsive ">
+            </div>
+            <div class="col-md-5 col-md-offset-1" style="padding-top:10px;">
+                <h1 class="text-center" style="color:#8B211B;">Home Hemodialysis Care </h1>
+                <p class="" style="color:gray;font-size:20px;">Our dedicated home dialysis facilities provide patients and their caregivers with expert training and support to allow dialysis to be performed in the home setting. This allows the greatest individualization of the patients personalized
+                    dialysis treatment plan. Affiliated Dialysis California provides both home hemodialysis and peritoneal dialysis in the home setting. &nbsp;learn more</p>
+            </div>
+        </div>        
     </div>
-    <div class="container-fluid">
+    <div class="container">
         <h1 class="text-center" style="padding-top:20px;font-size-adjust:center;font-size:40px;  color: #545254; font-weight: 700;">What our patients say about us</h1>
-        <div class="carousel slide" data-ride="carousel" id="carousel-2">
+        <div class="carousel slide" data-ride="carousel" id="carousel-2" data-interval="false">
             <div class="carousel-inner" role="listbox">
                 <div class="item active" >
                         <div class="row" style="" >
-                            <div class="col-md-6 col-md-offset-1" style="height: 400px; background-color:#2a447e; ">
+                            <div class="col-md-7" style="height: 400px; background-color:#2a447e; ">
                                 <h2 style="color:black; width:100%; text-align: left; padding-top: 40px; font-size: 35px; color: white;">Friendly and Knowledgeable</h2>
                                 <p style="color:black; width:100%; text-align: left; margin-top: 0vh; font-size: 18px; padding: 5px; color: white;">Some text from the actual testimony - Lorem ipsum dolor sit amet, dicat noluisse ei eam. Vel ea consul bonorum omnesque, mollis phaedrum definiebas cum cu. Mei id alienum scripserit ullamcorper, ut mea ipsum partem corpora, ei iudicabit dignissim mel. Duo tantas appareat an. Id quot simul sed, mea ex eripuit volumus. Tempor pericula ex pro, simul vitae pro ei, ius justo integre et. Oratio luptatum temporibus ei eos, an vis case praesent.</p>
                                 <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Sara G.</h3>
@@ -248,6 +263,8 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/css/css3-animate-it.js"></script>
 <script type="text/javascript">
     $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
@@ -255,9 +272,10 @@
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 600);
+
+    $(window).load(function() {
+  $("body").removeClass("preload");
+});
 });
 </script>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="assets/css/css3-animate-it.js"></script>
 </html>
