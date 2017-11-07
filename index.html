@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <script src="https://use.fontawesome.com/3007a05f59.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/animations-ie-fix.css">
 </head>
 
 <body>
@@ -25,7 +28,14 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right" style="margin-top:50px;">
                     <li role="presentation"><a href="#" style="background-color:transparent;">HOME </a></li>
-                    <li role="presentation"><a href="#">OUR SERVICES</a></li>
+                    <li role="presentation" class="dropdown" style="width:150px;">
+                       <a data-toggle="dropdown" href="#">OUR SERVICES
+                        <!-- <span class="caret"></span></a> -->
+                        <ul class="dropdown-menu" style="width: 148px;" >
+                          <li class="dropdown-item"><a href="#" style="padding-left: 5px;">Skilled Nursing</a></li>
+                          <li class="dropdown-item"><a href="#" style="padding-left: 5px;">Home Hemodialysis</a></li>
+                        </ul>
+                    </li>
                     <li role="presentation"><a href="#">OUR TEAM</a></li>
                     <li role="presentation"><a href="#">FAQ's </a></li>
                     <li role="presentation"><a href="#">ABOUT US</a></li>
@@ -36,10 +46,11 @@
         </div>
     </nav>
     <div style="height:130px;"></div>
-    <div class="jumbotron" id="homepagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
+    <div class="jumbotron animatedParent animateOnce" id="homepagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
             
-                <h1 class="text-left" style="color: white; position:relative;top:30vh;left:40px;font-size:90px; width:70vw;">Patient focused care<br>Wherever you need it most </h1>
-                <a href="#lower-home"class="fa fa-angle-down bounce" aria-hidden="true" style="color: #FFF; position:relative;top:48vh;left:40px;font-size:20px;  font-size: 100px; text-decoration: none;"></a>            
+                <h1 class="text-left" style="color: white; position:relative;top:30vh;left:40px;font-size:90px; width:70vw;"><span class="animated fadeIn slowest">Patient focused care</span><br><span class="animated fadeIn delay-1000 slowest">Wherever you need it most </span></h1>
+                <a href="#lower-home" class="fa fa-angle-down animated fadeInDown delay-2000" aria-hidden="true" style="color: #FFF; position:relative;top:48vh;left:40px;font-size:20px;  font-size: 100px; text-decoration: none;"></a>            
+                <a href="#lower-home" class="animated fadeInDown delay-2000" aria-hidden="true" style="color: #FFF; position:relative;top:48vh;left:-30px;font-size:15px; text-decoration: none; font-family: 'serif';">Learn More</a>
 
     </div>
     <div id="lower-home" style=" display: block; position: relative; top: -120px; visibility: hidden;"> </div>
@@ -115,9 +126,9 @@
                             <div class="col-md-6 col-md-offset-1" style="height: 400px; background-color:#2a447e; ">
                                 <h2 style="color:black; width:100%; text-align: left; padding-top: 40px; font-size: 35px; color: white;">Friendly and Knowledgeable</h2>
                                 <p style="color:black; width:100%; text-align: left; margin-top: 0vh; font-size: 18px; padding: 5px; color: white;">Some text from the actual testimony - Lorem ipsum dolor sit amet, dicat noluisse ei eam. Vel ea consul bonorum omnesque, mollis phaedrum definiebas cum cu. Mei id alienum scripserit ullamcorper, ut mea ipsum partem corpora, ei iudicabit dignissim mel. Duo tantas appareat an. Id quot simul sed, mea ex eripuit volumus. Tempor pericula ex pro, simul vitae pro ei, ius justo integre et. Oratio luptatum temporibus ei eos, an vis case praesent.</p>
-                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Marry H.</h3>
+                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Sara G.</h3>
                             </div>
-                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/home2-opc.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/testimonials/sara.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
                                     <span class="fa fa-play fa-5x" style="color:white; margin-top: 170px; margin-left: 40%;"></span>
                             </div>
                             <div class="col-md-1"></div>
@@ -128,9 +139,9 @@
                             <div class="col-md-6 col-md-offset-1" style="height: 400px; background-color:#2a447e; ">
                                 <h2 style="color:black; width:100%; text-align: left; padding-top: 40px; font-size: 35px; color: white;">Friendly and Knowledgeable</h2>
                                 <p style="color:black; width:100%; text-align: left; margin-top: 0vh; font-size: 18px; padding: 5px; color: white;">Some text from the actual testimony - Lorem ipsum dolor sit amet, dicat noluisse ei eam. Vel ea consul bonorum omnesque, mollis phaedrum definiebas cum cu. Mei id alienum scripserit ullamcorper, ut mea ipsum partem corpora, ei iudicabit dignissim mel. Duo tantas appareat an. Id quot simul sed, mea ex eripuit volumus. Tempor pericula ex pro, simul vitae pro ei, ius justo integre et. Oratio luptatum temporibus ei eos, an vis case praesent.</p>
-                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Marry H.</h3>
+                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Alan A.</h3>
                             </div>
-                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/home2-opc.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/testimonials/alan.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
                                     <span class="fa fa-play fa-5x" style="color:white; margin-top: 170px; margin-left: 40%;"></span>
                             </div>
                             <div class="col-md-1"></div>
@@ -141,9 +152,48 @@
                             <div class="col-md-6 col-md-offset-1" style="height: 400px; background-color:#2a447e; ">
                                 <h2 style="color:black; width:100%; text-align: left; padding-top: 40px; font-size: 35px; color: white;">Friendly and Knowledgeable</h2>
                                 <p style="color:black; width:100%; text-align: left; margin-top: 0vh; font-size: 18px; padding: 5px; color: white;">Some text from the actual testimony - Lorem ipsum dolor sit amet, dicat noluisse ei eam. Vel ea consul bonorum omnesque, mollis phaedrum definiebas cum cu. Mei id alienum scripserit ullamcorper, ut mea ipsum partem corpora, ei iudicabit dignissim mel. Duo tantas appareat an. Id quot simul sed, mea ex eripuit volumus. Tempor pericula ex pro, simul vitae pro ei, ius justo integre et. Oratio luptatum temporibus ei eos, an vis case praesent.</p>
-                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Marry H.</h3>
+                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Lorene W.</h3>
                             </div>
-                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/home2-opc.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/testimonials/lorene.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                                    <span class="fa fa-play fa-5x" style="color:white; margin-top: 170px; margin-left: 40%;"></span>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                </div>
+                <div class="item" >
+                        <div class="row" style="" >
+                            <div class="col-md-6 col-md-offset-1" style="height: 400px; background-color:#2a447e; ">
+                                <h2 style="color:black; width:100%; text-align: left; padding-top: 40px; font-size: 35px; color: white;">Friendly and Knowledgeable</h2>
+                                <p style="color:black; width:100%; text-align: left; margin-top: 0vh; font-size: 18px; padding: 5px; color: white;">Some text from the actual testimony - Lorem ipsum dolor sit amet, dicat noluisse ei eam. Vel ea consul bonorum omnesque, mollis phaedrum definiebas cum cu. Mei id alienum scripserit ullamcorper, ut mea ipsum partem corpora, ei iudicabit dignissim mel. Duo tantas appareat an. Id quot simul sed, mea ex eripuit volumus. Tempor pericula ex pro, simul vitae pro ei, ius justo integre et. Oratio luptatum temporibus ei eos, an vis case praesent.</p>
+                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Kathrine S.</h3>
+                            </div>
+                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/testimonials/kathrine.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                                    <span class="fa fa-play fa-5x" style="color:white; margin-top: 170px; margin-left: 40%;"></span>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                </div>
+                <div class="item" >
+                        <div class="row" style="" >
+                            <div class="col-md-6 col-md-offset-1" style="height: 400px; background-color:#2a447e; ">
+                                <h2 style="color:black; width:100%; text-align: left; padding-top: 40px; font-size: 35px; color: white;">Friendly and Knowledgeable</h2>
+                                <p style="color:black; width:100%; text-align: left; margin-top: 0vh; font-size: 18px; padding: 5px; color: white;">Some text from the actual testimony - Lorem ipsum dolor sit amet, dicat noluisse ei eam. Vel ea consul bonorum omnesque, mollis phaedrum definiebas cum cu. Mei id alienum scripserit ullamcorper, ut mea ipsum partem corpora, ei iudicabit dignissim mel. Duo tantas appareat an. Id quot simul sed, mea ex eripuit volumus. Tempor pericula ex pro, simul vitae pro ei, ius justo integre et. Oratio luptatum temporibus ei eos, an vis case praesent.</p>
+                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Yesenia S.</h3>
+                            </div>
+                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/testimonials/yesenia.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                                    <span class="fa fa-play fa-5x" style="color:white; margin-top: 170px; margin-left: 40%;"></span>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                </div>
+                <div class="item" >
+                        <div class="row" style="" >
+                            <div class="col-md-6 col-md-offset-1" style="height: 400px; background-color:#2a447e; ">
+                                <h2 style="color:black; width:100%; text-align: left; padding-top: 40px; font-size: 35px; color: white;">Friendly and Knowledgeable</h2>
+                                <p style="color:black; width:100%; text-align: left; margin-top: 0vh; font-size: 18px; padding: 5px; color: white;">Some text from the actual testimony - Lorem ipsum dolor sit amet, dicat noluisse ei eam. Vel ea consul bonorum omnesque, mollis phaedrum definiebas cum cu. Mei id alienum scripserit ullamcorper, ut mea ipsum partem corpora, ei iudicabit dignissim mel. Duo tantas appareat an. Id quot simul sed, mea ex eripuit volumus. Tempor pericula ex pro, simul vitae pro ei, ius justo integre et. Oratio luptatum temporibus ei eos, an vis case praesent.</p>
+                                <h3 style="color:black; width:100%; text-align: left; font-size: 25px; color: white; ">- Gretchen S.</h3>
+                            </div>
+                            <div class="col-md-4 " style="height: 400px; background-image:url(assets/img/testimonials/gretchen.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
                                     <span class="fa fa-play fa-5x" style="color:white; margin-top: 170px; margin-left: 40%;"></span>
                             </div>
                             <div class="col-md-1"></div>
@@ -208,4 +258,6 @@
 });
 </script>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/css/css3-animate-it.js"></script>
 </html>

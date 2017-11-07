@@ -46,6 +46,27 @@ body {
   margin-right:0;
 }
 
+.dropdown-menu {
+  min-width: 0px;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a{
+  background-color: transparent;
+  background-image: none;
+  color: #8B211B;
+}
+
+/*show drop down on hover*/
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+/*revert in case of mobile*/
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
 .footer{
   font-family: 'Montserrat';
   font-size: 16px;
@@ -99,6 +120,15 @@ body {
   background-position:center top;
 }
 
+#servicepagebigimage{
+  text-align:center;
+  padding:40px;
+  /*background:url(../../assets/img/home1-opc.jpg);*/
+  background-image: url(../../assets/img/service-opc1.jpg);
+  background-size:cover;
+  height:24vw;
+  background-position:center right;
+}
 .navbar.navbar-default {
   box-shadow:none;
   border:0px;
