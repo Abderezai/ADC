@@ -122,7 +122,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   /*background:url(../../assets/img/home1-opc.jpg);*/
   background-image: url(../../assets/img/homepageimagev2.jpg);
   background-size:cover;
-  height:calc(100vh - 130px);
+  height:800px;
   background-position:center top;
 }
 
@@ -135,6 +135,25 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   height:450px;
   background-position:center right;
 }
+
+#skilledpagebigimage{
+  text-align:center;
+  padding:40px;
+  background-image: url(../../assets/img/skilled-nursing.jpg);
+  background-size:cover;
+  height:600px;
+  background-position:right top;
+}
+
+#homehemopagebigimage{
+  text-align:center;
+  padding:40px;
+  background-image: url(../../assets/img/home-hemodialysis.jpg);
+  background-size:cover;
+  height:600px;
+  background-position:right top;
+}
+
 .navbar.navbar-default {
   box-shadow:none;
   border:0px;
@@ -164,6 +183,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 #aboutusbigimage {
   background-image:url(../../assets/img/iStock-648773550.jpg);
   background-size:cover;
+}
+
+.learn-more {
+  font-size:15px;
+  color:  #8B211B;
 }
 
 .carousel-control.left, .carousel-control.right {
