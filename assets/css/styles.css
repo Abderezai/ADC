@@ -197,6 +197,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   transform: scale(1.1) rotate(-5deg);
 }
 
+.slick-prev:before {
+  color: red;
+}
+.slick-next:before {
+  color: red;
+}
+
 #diamond {
   content:\'\';
   width:1px;
