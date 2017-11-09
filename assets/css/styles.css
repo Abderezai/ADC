@@ -120,7 +120,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   text-align:center;
   padding:40px;
   /*background:url(../../assets/img/home1-opc.jpg);*/
-  background-image: url(../../assets/img/homepageimagev2.jpg);
+  background-image: url(../../assets/img/homepageimagev3.jpg);
   background-size:cover;
   height:800px;
   background-position:center top;
@@ -154,6 +154,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-position:right top;
 }
 
+#faqpagebigimage {
+  background-image:url(../../assets/img/faq.jpg);
+  text-align:center;
+  padding:40px;
+  background-size:cover;
+  height:450px;
+  background-position:center right;
+}
+
 .navbar.navbar-default {
   box-shadow:none;
   border:0px;
@@ -173,13 +182,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   color: #59A7CD;
 }
 
-#faqpagebigimage {
-  text-align:center;
-  padding:40px;
-  background:url(../../assets/img/iStock-492429006.jpg);
-  background-size:cover;
-}
-
 #aboutusbigimage {
   background-image:url(../../assets/img/iStock-648773550.jpg);
   background-size:cover;
@@ -194,6 +196,32 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     background-image: none
 }
 
+.panel-default>.panel-heading {
+  background-image: none;
+  background-color: transparent;
+}
+
+.panel-title{
+  font-weight: 600;
+  color: gray;
+}
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "";    /* adjust as needed, taken from bootstrap.css */
+}
+
+#accordion .ui-icon { display: none; }
 
 /*BOOTSTRAP ARROWS REMOVED*/
 .right.carousel-control, .left.carousel-control {
