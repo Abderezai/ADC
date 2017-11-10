@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADC</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="https://use.fontawesome.com/3007a05f59.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/animations-ie-fix.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script> 
+        $(function(){
+            $("#nav").load("nav.html"); 
+        });
+    </script> 
+</head>
+
+<body>
+    <div id ="nav"></div>
+    <div style="height:130px;"></div>
+    <div class="jumbotron" id="skilledpagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
+            
+                <h1 class="text-left" style="color: white; position:relative;top:105px;left:40px;font-size:90px; width:70vw;"><span class="">Expert Treatment <br> Brought to your <br> Skilled Nursing Facility.</span><br><span class="animated fadeIn delay-1000 slowest"></span></h1>
+
+    </div>
+
+
+    <div class="container-fluid">
+        <!-- <div id="diamond"></div> -->
+        <div class="row">
+            <div class="col-xs-12" style="height: 140px; margin-top: 30px;">
+                <h1 class="text-center" style="width:100%;"> Affiliated Dialysis California </h1>
+            </div>
+            <div class="col-md-4 col-lg-offset-2 ">
+                <p><span style="font-size: 33px; color: #59A7CD; width:40px;" class="fa fa-map-marker text-center"></span> 1441 Gardena Ave, STE #6 Glendale, CA 91204</p>
+                <p><span style="font-size: 28px; color: #59A7CD; width:40px;" class="fa fa-phone text-center"></span> 818-662-8033</p>
+                <p><span style="font-size: 25px; color: #59A7CD; width:40px;" class="fa fa-fax text-center"></span> 818-662-6993</p>
+                <p><span style="font-size: 25px; color: #59A7CD; width:40px;" class="fa fa-envelope-o text-center"></span> info@affiliateddilaysisca.com</p>
+            </div>
+            <div class="col-md-5 col-lg-4" style="margin-top: -40px;">
+                <form id="contact" action="" method="post">
+                    <h3>Quick Contact</h3>
+                    <fieldset>
+                      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                  </fieldset>
+              </form>
+
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid " style="padding-top:10px;">
+        <div class="row footer">
+            <div class="col-lg-3 col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
+                <h4 class="footer-title">QUICK LINKS </h4>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"> <a href="#">Home</a></li>
+                    <li class="footer-menu-item"> <a href="#">Services</a></li>
+                    <li class="footer-menu-item"> <a href="#">Our Team</a></li>
+                    <li class="footer-menu-item"> <a href="#">FAQ's</a></li>
+                    <li class="footer-menu-item"> <a href="#">About ADC</a></li>
+                    <li class="footer-menu-item"> <a href="#">Contact</a></li>
+                    <li class="footer-menu-item"> <a href="#">Physicians</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <h4 class="footer-title">CONTACT ADC</h4>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"> <span class="fa fa-phone"></span> <span>Phone:</span> <span>(123) 456-7890</span> </li>
+                    <li class="footer-menu-item"> <span class="fa fa-envelope-o"></span> <span>Email:</span> <span style="font-size: 14px;">Reachout@AffiliatedDialysis.com</span> </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <h4 class="footer-title">APPOINTMENTS </h4>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"> <a href="#"></a></li>
+                    <li class="footer-menu-item"> <a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-xs-12 footer-copy">
+                &copy;<script>new Date().getFullYear()>document.write(new Date().getFullYear());</script>, Affiliated Dialysis California. Designed by ____
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 600);
+});
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/css/css3-animate-it.js"></script>
+</html>
