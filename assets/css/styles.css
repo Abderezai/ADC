@@ -163,6 +163,23 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-position:center right;
 }
 
+#aboutpagebigimage{
+  background-image:url(../../assets/img/600073900.jpg);
+  text-align:center;
+  padding:40px;
+  background-size:cover;
+  height:450px;
+  background-position:center top;
+}
+
+#contactpagebigimage{
+   background-image:url(../../assets/img/contact.jpg);
+  text-align:center;
+  padding:40px;
+  background-size:cover;
+  height:450px;
+  background-position:center top; 
+}
 .navbar.navbar-default {
   box-shadow:none;
   border:0px;
@@ -349,6 +366,24 @@ fieldset {
 }
 
 /*end*/
+#newsletter{
+    font-size: 20px;
+    border: 1px solid;
+    border-color: #76B6D5;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+
+#newsletter-submit{
+    font-size: 20px;
+    border: 1px solid;
+    border-color: #76B6D5;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -10px;
+    outline: none;
+}
 
 #diamond {
   content:\'\';

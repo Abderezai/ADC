@@ -16,13 +16,13 @@
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/animations-ie-fix.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script> 
         $(function(){
             $("#nav").load("nav.html"); 
+            $("#footer").load("footer.html"); 
         });
     </script> 
 </head>
@@ -32,7 +32,7 @@
     <div style="height:130px;"></div>
     <div class="jumbotron animatedParent animateOnce" id="homepagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
             
-                <h1 class="text-left" style="color: white; position:relative;top:450px;left:50px;font-size:90px; width:70vw;"><span class="animated fadeIn slowest">Patient focused care</span><br><span class="animated fadeIn delay-1000 slowest">Wherever you need it most </span></h1>
+                <h1 class="text-left" style="color: white; position:relative;top:450px;left:50px;font-size:90px; width:70vw;"> <span class="animated fadeIn slowest">Patient focused care </span><br><span class="animated fadeIn slowest delay-1000">Wherever you need it most</span></h1>
                 <a href="#lower-home" class="fa fa-angle-down animated fadeInDown delay-2000" aria-hidden="true" style="color: #FFF; position:relative;top:450px;left:40px;font-size:20px;  font-size: 100px; text-decoration: none;"></a>            
                 <a href="#lower-home" class="animated fadeInDown delay-2000" aria-hidden="true" style="color: #FFF; position:relative;top:450px;left:-30px;font-size:15px; text-decoration: none; font-family: 'serif';">Learn More</a>
 
@@ -41,13 +41,13 @@
     <h1 class="text-center"  style="color:rgb(84,82,82);padding-top:8px;font-size-adjust:center;font-size:45px;padding-bottom:0px;">Expert Care and Training for all of your dialysis needs </h1>
 
 
-    <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
+    <div class="container-fluid animatedParent animateOnce" style="padding-left: 0px; padding-right: 0px;">
         <div id="diamond"></div>
         <div class="carousel slide" data-ride="carousel" id="carousel-1">
             <div class="carousel-inner" role="listbox" >
                 <div class="item active" >
-                        <div class="row" style="background-image:url(assets/img/home2-opc.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;" >
-                            <div class="col-md-12" style="height: 75vh;">
+                        <div class="row " style="background-image:url(assets/img/home2-opc.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;" >
+                            <div class="col-md-12 animated fadeInDownShort delay-1000" style="height: 75vh;">
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 55vh; font-size: 75px; ">Expert Care</h1>
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 0vh; font-size: 40px;">Our professional medical staff ensure that you achive the best outcome.</h1>
                             </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="item" >
                         <div class="row" style="background-image:url(assets/img/home3-opc.jpg);background-position:center top;background-size:cover;background-repeat:no-repeat;" >
-                            <div class="col-md-12" style="height: 75vh;background-color: rgba(0,0,0,0.1);">
+                            <div class="col-md-12 animated fadeInDownShort delay-1000" style="height: 75vh;background-color: rgba(0,0,0,0.1);">
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 55vh; font-size: 75px; ">Nursing Home Dialysis</h1>
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 0vh; font-size: 40px; ">Our professional medical staff ensure that you achive the best outcome.</h1>
                             </div>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="item" >
                         <div class="row" style="background-image:url(assets/img/home4-opc.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;" >
-                            <div class="col-md-12" style="height: 75vh;background-color: rgba(0,0,0,0.1);">
+                            <div class="col-md-12 animated fadeInDownShort delay-1000" style="height: 75vh;background-color: rgba(0,0,0,0.1);">
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 55vh; font-size: 75px; ">Dialysis At Home </h1>
                             <h1 style="color:white; width:100%; text-align: center; margin-top: 0vh; font-size: 40px;">Our professional medical staff ensure that you achive the best outcome.</h1>
                             </div>
@@ -90,13 +90,13 @@
     <div class="container">
         <h1 class="text-center"  style="color:rgb(84,82,82);padding-top:8px;font-size-adjust:center;font-size:70px;padding-bottom:0px;">Beyond Dialysis</h1>
 
-        <div class="row">
-            <div class="col-md-5" style="padding-top:60px;">
+        <div class="row animatedParent animateOnce" data-appear-top-offset='-300'>
+            <div class="col-md-5 animated bounceInLeft" style="padding-top:60px;">
                 <h1 class="text-center" style="color:#8B211B;">Skilled Nursing Facility</h1>
                 <p class="" style="font-size:20px;color:gray;">Affiliated Dialysis California provides bedside hemodialysis in skilled nursing facilities. Our new program is the first and only Office of Statewide Health Planning and Development (OSHPD) and California Department of Public Health (CDPH)
                     licensed provider of bedside dialysis in skilled nursing facilities in California. <a href="/skilled-nursing.html" class="learn-more">Learn More</a></p>
             </div>
-            <div class="col-md-3 col-md-offset-1"  style="margin-top:100px;" >
+            <div class="col-md-3 col-md-offset-1 animated  bounceInRight"  style="margin-top:100px;" >
                 <img src="assets/img/nursing.jpg"  class="img-circle img-responsive" >
             </div>
         </div>
@@ -105,11 +105,11 @@
             <hr>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-md-offset-1" style="margin-top:60px;">
+        <div class="row animatedParent animateOnce" data-appear-top-offset='-50'>
+            <div class="col-md-3 col-md-offset-1  animated  bounceInLeft" style="margin-top:60px;">
                 <img src="assets/img/at-home-dialysis.jpg"  class="img-circle img-responsive ">
             </div>
-            <div class="col-md-5 col-md-offset-1" style="padding-top:10px;">
+            <div class="col-md-5 col-md-offset-1  animated  bounceInRight" style="padding-top:10px;">
                 <h1 class="text-center" style="color:#8B211B;">Home Hemodialysis Care </h1>
                 <p class="" style="color:gray;font-size:20px;">Our dedicated home dialysis facilities provide patients and their caregivers with expert training and support to allow dialysis to be performed in the home setting. This allows the greatest individualization of the patients personalized
                     dialysis treatment plan. Affiliated Dialysis California provides both home hemodialysis and peritoneal dialysis in the home setting. <a href="/home-hemodialysis.html" class="learn-more"> Learn More</a></p>
@@ -142,35 +142,8 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid " style="padding-top:10px;">
-        <div class="row footer">
-            <div class="col-lg-3 col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
-                <h4 class="footer-title">QUICK LINKS </h4>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"> <a href="#">Home</a></li>
-                    <li class="footer-menu-item"> <a href="#">Services</a></li>
-                    <li class="footer-menu-item"> <a href="#">Our Team</a></li>
-                    <li class="footer-menu-item"> <a href="#">FAQ's</a></li>
-                    <li class="footer-menu-item"> <a href="#">About ADC</a></li>
-                    <li class="footer-menu-item"> <a href="#">Contact</a></li>
-                    <li class="footer-menu-item"> <a href="#">Physicians</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="footer-title">CONTACT ADC</h4>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"> <span class="fa fa-phone"></span> <span>Phone:</span> <span>(123) 456-7890</span> </li>
-                    <li class="footer-menu-item"> <span class="fa fa-envelope-o"></span> <span>Email:</span> <span style="font-size: 14px;">Reachout@AffiliatedDialysis.com</span> </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                <h4 class="footer-title">APPOINTMENTS </h4>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"> <a href="#"></a></li>
-                    <li class="footer-menu-item"> <a href="#"></a></li>
-                </ul>
-            </div>
-        </div>
+    <div id="footer"></div>
+    <div class="container">
         <div class="row footer">
             <div class="col-xs-12 footer-copy">
                 &copy;<script>new Date().getFullYear()>document.write(new Date().getFullYear());</script>, Affiliated Dialysis California. Designed by ____
@@ -190,7 +163,10 @@
 </script>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="assets/css/css3-animate-it.js"></script>
+<link rel="stylesheet" href="assets/css/animations.css">
+<script src="assets/css/css3-animate-it.js">
+    document.getElementById("hideAll").style.display = "block";
+</script>
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
 <script type="text/javascript">
     $(document).on('click', 'a[href^="#"]', function (event) {

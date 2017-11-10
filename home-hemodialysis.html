@@ -14,13 +14,13 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <script src="https://use.fontawesome.com/3007a05f59.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/animations-ie-fix.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script> 
         $(function(){
             $("#nav").load("nav.html"); 
+            $("#footer").load("footer.html"); 
         });
     </script>
 </head>
@@ -28,24 +28,24 @@
 <body>
   <div id ="nav"></div>
   <div style="height:130px;"></div>
-  <div class="jumbotron" id="homehemopagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
+  <div class="jumbotron animatedParent animateOnce" id="homehemopagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
 
-    <h1 class="text-center" style="color: white; position:relative;top:105px;left:45%;font-size:80px; width:60vw;"><span class="">Professional Support <br> and Training <br> for Home Dialysis.</span><br><span class="animated fadeIn delay-1000 slowest"></span></h1>
+    <h1 class="text-center  animated fadeIn slow" style="color: white; position:relative;top:105px;left:45%;font-size:80px; width:60vw;"><span class="">Professional Support <br> and Training <br> for Home Dialysis.</span><br><span class="animated fadeIn  slowest"></span></h1>
 
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid animatedParent animateOnce">
     <!-- <div id="diamond"></div> -->
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12  animated  fadeInUpShort delay-1000">
             <h1 class="text-center"  style="color:rgb(84,82,82);padding-top:8px;font-size-adjust:center;font-size:45px;padding-bottom:0px;">Home Hemodialysis Care</h1>
         </div>
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
+        <div class="col-xs-12 col-md-8 col-md-offset-2  animated  fadeInUpShort delay-1000">
 
             <p class="" style="font-size:20px;color:gray;">
                 Affiliated Dialysis California has over 10 years of treatment experience, with the objective of providing quality home dialysis therapies to End Stage Renal Disease (ESRD) patients throughout Southern California. Our primary goal has been to offer patients different types of dialysis modalities in their own communities, in a manner that distinguishes ADC from large and impersonal corporate chains.  How do we differ?  By interacting closely with our patients and their families; by respecting our patients as experts in their own lives and bodies; by encouraging open communication between our patients/families and our staff, with all parties held in equal status.  It is our experience that when we work together as partners with our patients and their families, more can be done to improve the quality of health for our patients than any of us can do alone.</p>
-                 <img src="assets/img/at-home-dialysis.jpg" class="img-circle"  style="height: 300px;width: 300px; float: left; -webkit-shape-outside:circle(); shape-outside:circle(); border-width: 30px; border-style: solid; border-color: transparent;" >
+                 <img src="assets/img/at-home-dialysis.jpg" class="img-circle  animated  fadeInUpShort"  style="height: 300px;width: 300px; float: left; -webkit-shape-outside:circle(); shape-outside:circle(); border-width: 30px; border-style: solid; border-color: transparent;" >
                 <p class="" style="font-size:20px;color:gray;">
                     With the growth of our program and to improve support to our patients, we have established dedicated regional home training centers throughout Southern California. Our focus is to provide patients with an improved quality of life and freedom through customized home dialysis treatments. Patients in our program can choose to remain under the care of their own primary nephrologist.
                 </p>
@@ -69,35 +69,9 @@
             
         </div>
     </div>
-    <div class="container-fluid " style="padding-top:10px;">
-        <div class="row footer">
-            <div class="col-lg-3 col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
-                <h4 class="footer-title">QUICK LINKS </h4>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"> <a href="#">Home</a></li>
-                    <li class="footer-menu-item"> <a href="#">Services</a></li>
-                    <li class="footer-menu-item"> <a href="#">Our Team</a></li>
-                    <li class="footer-menu-item"> <a href="#">FAQ's</a></li>
-                    <li class="footer-menu-item"> <a href="#">About ADC</a></li>
-                    <li class="footer-menu-item"> <a href="#">Contact</a></li>
-                    <li class="footer-menu-item"> <a href="#">Physicians</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="footer-title">CONTACT ADC</h4>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"> <span class="fa fa-phone"></span> <span>Phone:</span> <span>(123) 456-7890</span> </li>
-                    <li class="footer-menu-item"> <span class="fa fa-envelope-o"></span> <span>Email:</span> <span style="font-size: 14px;">Reachout@AffiliatedDialysis.com</span> </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                <h4 class="footer-title">APPOINTMENTS </h4>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"> <a href="#"></a></li>
-                    <li class="footer-menu-item"> <a href="#"></a></li>
-                </ul>
-            </div>
-        </div>
+    
+    <div id="footer"></div>
+    <div class="container">
         <div class="row footer">
             <div class="col-xs-12 footer-copy">
                 &copy;<script>new Date().getFullYear()>document.write(new Date().getFullYear());</script>, Affiliated Dialysis California. Designed by ____
@@ -114,7 +88,7 @@
         }, 600);
     });
 </script>
-
+<link rel="stylesheet" href="assets/css/animations.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="assets/css/css3-animate-it.js"></script>
 </html>
