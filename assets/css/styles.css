@@ -213,6 +213,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   }
 
 }
+@media screen and (max-width: 1400px) {
+    #contactpagebigimage h1{
+    top:320px;
+    font-size:50px;
+  }
+}
 
 @media screen and (max-width: 1300px) {
   #homepagebigimage h1 {
@@ -236,7 +242,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
   #contactpagebigimage h1{
     top:270px;
-    font-size:80px;
+    font-size:50px;
   }
 
 }
@@ -282,6 +288,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     top:270px;
     font-size:50px;
   }
+}
+
+@media screen and (max-width: 1000px) {
+  #contactpagebigimage h1{
+    top:270px;
+    font-size:70px;
+  }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -385,6 +399,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-top:50px;
   background-color: white;
 }
+
+@media screen and (max-width: 1000px) {
+
+  #navcol-1 {
+    padding-right:0px;
+  }
+}
+
 
 @media screen and (max-width: 728px) {
   #navcol-1 {
