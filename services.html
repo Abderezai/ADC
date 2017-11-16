@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="assets/css/animations-ie-fix.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/avicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+
     <script> 
         $(function(){
             $("#nav").load("nav.html"); 
@@ -27,15 +36,19 @@
 
 <body>
     <div id ="nav"></div>
-    <div style="height:130px;"></div>
-    <div class="jumbotron animatedParent animateOnce" id="servicepagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
+    <div  class="hidden-xs hidden-sm" style="height:130px;"></div>
+    <div  class="visible-xs visible-sm" style="height:80px;"></div>
+    <div class="jumbotron animatedParent animateOnce hidden-xs hidden-sm " id="servicepagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
             
                 <h1 class="text-center animated fadeIn slowest" style="color: white; position:relative;top:105px;left:10px; width:45vw;"><span class="">Looking Beyond <br>Dialysis</span><br><span class="animated slowest fadeIn delay-1000 slowest"></span></h1>
 
     </div>
+    <div class="jumbotron animatedParent animateOnce visible-xs visible-sm " id="servicepagebigimageMobile" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
+            
+                <h1 class="text-center animated fadeIn slowest" style="color: white; position:relative;top:310px;left:10px; width:90vw; font-size: 40px;"><span class="">Looking Beyond Dialysis</span></h1>
 
-
-    <div class="container-fluid animatedParent animateOnce">
+    </div>
+    <div class="container-fluid animatedParent animateOnce hidden-xs hidden-sm">
         <!-- <div id="diamond"></div> -->
         <div class="row animated slowest fadeInUpShort">
             <div class="col-xs-12">
@@ -47,10 +60,10 @@
         </div>
         
         <div class="row  animated  slowest fadeInUpShort delay-500" style="padding-top: 20px;">
-            <div class="col-md-offset-3 col-md-2 zoom zoom-rr">
+            <div class="col-md-4 col-lg-offset-3 col-lg-2  zoom zoom-rr">
                 <img src="assets/img/nursing.jpg"  class="img-circle img-responsive ">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-8 col-lg-4">
                 <h1 class=""  style="color:#8B211B;">Skilled Nursing Facility</h1>
                <p class="" style="font-size:20px;color:gray;">Affiliated Dialysis California provides bedside hemodialysis in skilled nursing facilities. Our new program is the first and only Office of Statewide Health Planning and Development (OSHPD) and California Department of Public Health (CDPH)
                     licensed provider of bedside dialysis in skilled nursing facilities in California. <a href="/skilled-nursing.html" class="learn-more">Learn More</a></p>
@@ -58,11 +71,44 @@
         </div>
 
         <div class="row animated slowest fadeInUpShort delay-500" style="padding-top: 60px;padding-bottom: 60px;">
+            <div class="col-md-4 col-lg-offset-3 col-lg-2 zoom-rl">
+                <img src="assets/img/at-home-dialysis.jpg"  class="img-circle img-responsive ">
+            </div>
+            <div class="col-md-8 col-lg-4">
+                <h1 class=""  style="color:#8B211B;">Home Hemodialysis Care</h1>
+                <p class="" style="color:gray;font-size:20px;">Our dedicated home dialysis facilities provide patients and their caregivers with expert training and support to allow dialysis to be performed in the home setting. This allows the greatest individualization of the patients personalized
+                    dialysis treatment plan. Affiliated Dialysis California provides both home hemodialysis and peritoneal dialysis in the home setting. <a href="/home-hemodialysis.html" class="learn-more"> Learn More</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid visible-xs visible-sm">
+        <!-- <div id="diamond"></div> -->
+        <div class="row animated">
+            <div class="col-xs-12">
+                <h1 class="text-center"  style="color:rgb(84,82,82);padding-top:8px;font-size-adjust:center;font-size:45px;padding-bottom:0px;">Affiliated Dialysis Services</h1>
+            </div>
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <p class="" style="font-size:20px;color:gray;"> At Affiliated Dialysis California (ADC), our services include home/bedside dialysis training and support, with staff expertise in creating treatment plans for home and skilled nursing facilities. On the home hemodialysis side, ADC utilizes comprehensive care techniques comparable to standard outpatient dialysis, while also providing the flexibility of home dialysis. The benefits of both programs include patient freedom to consider lifestyle choices that might otherwise be restricted by standard outpatient hemodialysis courses of treatment. </p>
+            </div>
+        </div>
+        
+        <div class="row" style="padding-top: 20px;">
+            <h1 class=""  style="color:#8B211B; text-align: center;">Skilled Nursing Facility</h1>
+            <div class="col-md-offset-3 col-md-2 zoom zoom-rr">
+                <img src="assets/img/nursing.jpg"  class="img-circle img-responsive ">
+            </div>
+            <div class="col-md-4">
+               <p class="" style="font-size:20px;color:gray;">Affiliated Dialysis California provides bedside hemodialysis in skilled nursing facilities. Our new program is the first and only Office of Statewide Health Planning and Development (OSHPD) and California Department of Public Health (CDPH)
+                    licensed provider of bedside dialysis in skilled nursing facilities in California. <a href="/skilled-nursing.html" class="learn-more">Learn More</a></p>
+            </div>
+        </div>
+
+        <div class="row" style="padding-bottom: 10px;">
+            <h1 class=""  style="color:#8B211B;text-align: center;">Home Hemodialysis Care</h1>
             <div class="col-md-offset-3 col-md-2 zoom zoom-rl">
                 <img src="assets/img/at-home-dialysis.jpg"  class="img-circle img-responsive ">
             </div>
             <div class="col-md-4">
-                <h1 class=""  style="color:#8B211B;">Home Hemodialysis Care</h1>
                 <p class="" style="color:gray;font-size:20px;">Our dedicated home dialysis facilities provide patients and their caregivers with expert training and support to allow dialysis to be performed in the home setting. This allows the greatest individualization of the patients personalized
                     dialysis treatment plan. Affiliated Dialysis California provides both home hemodialysis and peritoneal dialysis in the home setting. <a href="/home-hemodialysis.html" class="learn-more"> Learn More</a></p>
             </div>

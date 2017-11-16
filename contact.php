@@ -22,6 +22,14 @@ use Mailgun\Mailgun;
     <link rel="stylesheet" href="assets/css/animations-ie-fix.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/avicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
     <script> 
         $(function(){
             $("#nav").load("nav.html"); 
@@ -32,7 +40,8 @@ use Mailgun\Mailgun;
 
 <body>
     <div id ="nav"></div>
-    <div style="height:130px;"></div>
+    <div  class="hidden-xs hidden-sm" style="height:130px;"></div>
+    <div  class="visible-xs visible-sm" style="height:80px;"></div>
     <div class="jumbotron animatedParent animateOnce" id="contactpagebigimage" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-bottom:0;margin-top:0px;">
             
                 <h1 class="text-center animated  slowest fa   deIn slowest " style="color: white; position:relative;left:0px; width:100%; "><span class="">An Elevated Dialysis Experiance Starts Here</span><br><span class="animated slowest fadeIn delay-1000 slowest"></span></h1>
@@ -48,10 +57,28 @@ use Mailgun\Mailgun;
                 <h1 class="text-center visible-xs" style="width:100%; font-size: 40px"> Affiliated Dialysis California </h1>
             </div>
             <div class="col-lg-4 col-md-6 col-lg-offset-2 ">
-                <p><span style="font-size: 33px; color: #59A7CD; width:40px;" class="fa fa-map-marker text-center"></span> 1441 Gardena Ave, STE #6 Glendale, CA 91204</p>
-                <p><span style="font-size: 28px; color: #59A7CD; width:40px;" class="fa fa-phone text-center"></span> <a href="tel:+18186628033">818-662-8033</a></p>
-                <p><span style="font-size: 25px; color: #59A7CD; width:40px;" class="fa fa-fax text-center"></span> 818-662-6993</p>
-                <p><span style="font-size: 25px; color: #59A7CD; width:40px;" class="fa fa-envelope-o text-center"></span> <a  href="mailto:info@affiliateddialysisca.com"> info@affiliateddialysisca.com </a></p>
+              <table>
+                <tr>
+                  <td><span style="font-size: 33px; color: #59A7CD; width:40px;" class="fa fa-map-marker text-center"></span></td>
+                  <td>&nbsp&nbsp&nbsp</td>
+                  <td><p style="margin-top: 10px;"> 1441 Gardena Ave, STE #6 Glendale, CA 91204</p></td>
+                </tr>
+                <tr>
+                  <td><span style="font-size: 33px; color: #59A7CD; width:40px;" class="fa fa-phone text-center"></span></td>
+                  <td>&nbsp&nbsp&nbsp</td>
+                  <td><p style="margin-top: 10px;"><a href="tel:+18186628033">818-662-8033</a></p></td>
+                </tr>
+                <tr>
+                  <td><span style="font-size: 33px; color: #59A7CD; width:40px;" class="fa fa-fax text-center"></span></td>
+                  <td>&nbsp&nbsp&nbsp</td>
+                  <td><p style="margin-top: 10px;">818-662-8033</p></td>
+                </tr>
+                <tr>
+                  <td><span style="font-size: 33px; color: #59A7CD; width:40px;" class="fa fa-envelope-o text-center"></span></td>
+                  <td>&nbsp&nbsp&nbsp</td>
+                  <td><p style="margin-top: 10px;"><a href="mailto:info@affiliateddialysisca.com"> info@affiliateddialysisca.com </a></p></td>
+                </tr>
+              </table>
                 <div id="map" style="width:100%;height:264px;">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.764895875328!2d-118.26216238454536!3d34.12676812124584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c0e7158812c5%3A0x8ef01907d4d6ef2!2s1441+Gardena+Ave+%236%2C+Glendale%2C+CA+91204!5e0!3m2!1sen!2sus!4v1510298669846" width="100%" height="264" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
